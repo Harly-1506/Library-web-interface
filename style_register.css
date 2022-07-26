@@ -1,0 +1,97 @@
+#background{
+    height: 1000px;
+    width: 80%;
+    background-image: url(image/backgroundheader.png);
+    margin-top: 10px;
+    margin-left: 130px;
+}
+#name{
+    text-align: center;
+}
+#form_register{
+    width: 420px;
+    background-color:white;
+    margin-top: 20px;
+    margin-left: 293px;
+    border: 6px solid silver;
+}
+.style-input{
+    width: 300px;
+    height: 50px;
+    padding: 0 15px;
+    color: black;
+    font-size: 17px;
+    font-weight: 200;
+    background-color: transparent;
+    border-bottom: 5px solid black;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    /* font-family: 'Raleway', sans-serif; */
+    outline: none;
+    margin:0px 0px 20px 60px;
+}
+.style-input:hover{
+    border-bottom: 5px solid #009150;
+}
+input::-webkit-input-placeholder {
+    color: rgb(51, 51, 51) !important;
+   } 
+input:hover::-webkit-input-placeholder{
+color: #009150 !important;
+} 
+
+#btn-register,#btn-login{
+    width: 335px;
+    height: 50px;
+    margin-left: 35px;
+    background-color: #009150;
+    border: 2px solid #038349;
+    border-radius: 7px;
+    outline:none;
+    cursor: pointer;
+    font-size: 15px;
+    transition: .2s;
+    margin-left: 45px;
+    color: white;
+}
+#btn-register:hover{
+    background-color: #03bb68;
+}
+#btn-login:hover{
+    background-color: #03bb68;
+}
+#icon-register{
+    display: flex;
+    font-size: 30px;
+    margin-left: 125px;
+}
+#icon-register i{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+    margin: 5px 8px 5px 8px;
+
+}
+#instagram i:hover{
+    background-color: #daaa0c;
+    color: #fff;
+    border-color: #c48105;
+}
+#google i:hover{
+    background-color: #dd4b39;
+    color: #fff;
+    border-color: #dd4b39;
+}
+#facebook i:hover{
+    background-color: #3b5998;
+    color: #fff;
+    border-color: #3b5998;
+}
+
+
+
+/* css dành cho đăng nhập */

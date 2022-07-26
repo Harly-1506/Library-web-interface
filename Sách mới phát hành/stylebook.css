@@ -1,0 +1,54 @@
+#detail-book{
+    height: auto;
+    width: 80%;
+    background-image: url(image/backgroundheader.png);
+    margin-top: 10px;
+    margin-left: 10%;
+    padding-bottom: 50px;
+}#row01{
+    display: flex;
+}
+#image-book{
+    margin: 40px 40px 5px 40px;
+}
+#about-book{
+    margin-top: 60px;
+    width: 300px;
+}
+#info-bill{
+    background-color: white;
+    margin-left:40px;
+    margin-top: 70px;
+    border: 6px solid silver;
+    width: 250px;
+    height: 320px;
+}
+#info-bill p{
+    margin-left: 5px;
+}
+.giasach{
+    float: right;
+    margin-right: 5px;
+}
+
+.btn-book{
+    width: 180px;
+    height: 35px;
+    margin-left: 35px;
+    background-color: #ffc705;
+    border: 2px solid #e1af04;
+    border-radius: 7px;
+    outline:none;
+    cursor: pointer;
+    font-size: 15px;
+    transition: .2s;
+    
+}
+.btn-book:hover{
+    background-color: #fce233;
+}
+#content-detail-book{
+    margin:0px 20px 0px 20px;
+    font-size: 18px;    
+    font-family: 'Montserrat-Light' !important;
+}
